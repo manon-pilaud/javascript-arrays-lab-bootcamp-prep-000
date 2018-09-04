@@ -35,3 +35,8 @@ function appendKitten(name) {
    return new_kittens
   }
   
+  function removeFirstKitten() {
+    var new_kittens = kittens.slice(1)
+    return new_kittens
+  }
+  
