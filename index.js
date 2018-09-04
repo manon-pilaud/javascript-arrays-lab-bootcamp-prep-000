@@ -30,3 +30,8 @@ function appendKitten(name) {
   return new_kittens
   }
   
+  function removeLastKitten() {
+   var new_kittens=kittens.slice(0,(length-1))
+   return new_kittens
+  }
+  
